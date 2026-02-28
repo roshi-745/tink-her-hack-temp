@@ -33,10 +33,10 @@ The system ensures travelers are continuously monitored so they never have to tr
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, html,CSS]
+- Languages used: [e.g., JavaScript, html, CSS]
 - Frameworks used: [e.g., React, Django, Spring Boot]
 - Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Tools used: [e.g., VS Code, Git]
 
 **For Hardware:**
 - Main components: [List main components]
