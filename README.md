@@ -95,7 +95,7 @@ Displays user's real-time location on map.]
 #### Screenshots (Add at least 3)
 
 ![Screenshot1]()
-*Add caption explaining what this shows*
+<img width="1919" height="859" alt="HOME PAGE" src="https://github.com/user-attachments/assets/9c4f65aa-bd0c-40ec-95d4-f480785d68b0" />
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
