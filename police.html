@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Safar.al Police Control Room</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+background:#0b0f1a;
+color:white;
+font-family:Arial;
+}
+
+.card-box{
+background:#111827;
+padding:25px;
+border-radius:12px;
+margin-top:60px;
+}
+
+.alert-box{
+background:#7f1d1d;
+padding:15px;
+border-radius:8px;
+animation:blink 1s infinite;
+}
+
+@keyframes blink{
+50%{opacity:0.6;}
+}
+
+.status{
+margin-top:15px;
+font-weight:bold;
+color:#22c55e;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card-box col-md-7 mx-auto">
+
+<h3 class="text-danger text-center">
+🚨 SAFAR.AL EMERGENCY ALERT
+</h3>
+
+<hr>
+
+<div class="alert-box">
+
+<h5 id="userName"></h5>
+
+<p><b>Status:</b> USER IN NEED</p>
+
+<p>
+📍 Location:
+<span id="location"></span>
+</p>
+
+</div>
+
+<hr>
+
+<h5>User Identification</h5>
+
+<img id="userPhoto"
+width="150"
+class="rounded mt-2"/>
+
+<hr>
+
+<button class="btn btn-success"
+onclick="acceptCase()">
+✅ We Will Check
+</button>
+
+<button class="btn btn-warning"
+onclick="dispatchTeam()">
+🚓 Dispatch Patrol
+</button>
+
+<div class="status" id="response"></div>
+
+</div>
+
+</div>
+
+
+<script>
+
+/* =============================
+RECEIVE PANIC DATA
+=============================*/
+
+let user =
+localStorage.getItem("panicUser") || "Unknown User";
+
+let lat =
+localStorage.getItem("panicLat");
+
+let lon =
+localStorage.getItem("panicLon");
+
+let photo =
+localStorage.getItem("userPhoto");
+
+/* DISPLAY DATA */
+
+document.getElementById("userName")
+.innerText="User: "+user;
+
+document.getElementById("location")
+.innerText=`${lat}, ${lon}`;
+
+if(photo){
+document.getElementById("userPhoto").src=photo;
+}
+
+
+/* =============================
+POLICE RESPONSE
+=============================*/
+
+function acceptCase(){
+
+localStorage.setItem(
+"policeReply",
+"✅ Police Team Assigned. Help is on the way."
+);
+
+localStorage.setItem(
+"panicActive",
+"resolved"
+);
+
+document.getElementById("response")
+.innerText="Unit Assigned";
+
+}
+
+function dispatchTeam(){
+
+localStorage.setItem(
+"policeReply",
+"🚓 Patrol dispatched to your location."
+);
+
+localStorage.setItem(
+"panicActive",
+"resolved"
+);
+
+document.getElementById("response")
+.innerText="Patrol Dispatched";
+
+}
+</script>
+
+</body>
+</html>
