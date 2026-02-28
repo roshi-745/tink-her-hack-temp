@@ -2,27 +2,29 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [Safar] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Viva La Vida]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Seethal ajith] - [TKM college of engineering]
+- Member 2: [Roshni D P] - [TKM college of engineering]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[SafarGuard is a solo-travel safety platform that performs periodic check-ins with users during their journey to ensure their well-being.
+If a user feels unsafe or faces danger, they can instantly alert emergency contacts or nearby authorities by sharing their live location and identification details.
+The system ensures travelers are continuously monitored so they never have to travel alone.]
 
 ### The Problem statement
-[What problem are you solving?]
+[With the increasing number of individuals traveling alone for work, education, or leisure, ensuring personal safety during journeys has become a major concern. Solo travelers often lack a reliable system that can periodically check on their safety and quickly notify emergency contacts or authorities during unsafe situations. There is a need for a smart, user-controlled safety solution that provides continuous monitoring and instant emergency communication to enhance traveler security.]
 
 ### The Solution
-[How are you solving it?]
+[Safar addresses solo travel safety by providing a smart monitoring system where users can activate journey tracking for a selected time period. The platform performs periodic safety check-ins, prompting users to confirm their well-being. If the user feels unsafe or triggers a panic alert, the system immediately shares their live location and identification details with emergency contacts and nearby authorities, enabling faster response and assistance.]
 
 ---
 
@@ -31,7 +33,7 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
+- Languages used: [e.g., JavaScript, html,CSS]
 - Frameworks used: [e.g., React, Django, Spring Boot]
 - Libraries used: [e.g., axios, pandas, JUnit]
 - Tools used: [e.g., VS Code, Git, Docker]
@@ -46,10 +48,19 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [1. Timed Safety Check-In
+Users set custom time intervals (e.g., every 30 mins / 1 hour).
+System automatically sends a popup or notification asking:
+👉 “Are you safe?”]
+- Feature 2: [Smart Alert Mechanism
+If the user confirms → timer resets.
+If the user does not respond within a deadline, emergency protocol activates.]
+- Feature 3: [Live Location Tracking
+Continuous or periodic GPS tracking during travel.
+Location shared only during emergency situations.]
+- Feature 4: [Admin / Authority Panel
+Police or admin receives alerts.
+Displays user's real-time location on map.]
 
 ---
 
@@ -83,7 +94,7 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1]()
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
