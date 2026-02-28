@@ -2,29 +2,29 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Safar] 🎯
+# Safar 🎯
 
 ## Basic Details
 
-### Team Name: [Viva La Vida]
+### Team Name: Viva La Vida
 
 ### Team Members
-- Member 1: [Seethal ajith] - [TKM college of engineering]
-- Member 2: [Roshni D P] - [TKM college of engineering]
+- Member 1: Seethal Ajith - TKM college of engineering
+- Member 2: Roshni D P - TKM college of engineering
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[SafarGuard is a solo-travel safety platform that performs periodic check-ins with users during their journey to ensure their well-being.
+Safar is a solo-travel safety platform that performs periodic check-ins with users during their journey to ensure their well-being.
 If a user feels unsafe or faces danger, they can instantly alert emergency contacts or nearby authorities by sharing their live location and identification details.
-The system ensures travelers are continuously monitored so they never have to travel alone.]
+The system ensures travelers are continuously monitored so they never have to travel alone.
 
 ### The Problem statement
-[With the increasing number of individuals traveling alone for work, education, or leisure, ensuring personal safety during journeys has become a major concern. Solo travelers often lack a reliable system that can periodically check on their safety and quickly notify emergency contacts or authorities during unsafe situations. There is a need for a smart, user-controlled safety solution that provides continuous monitoring and instant emergency communication to enhance traveler security.]
+With the increasing number of individuals traveling alone for work, education, or leisure, ensuring personal safety during journeys has become a major concern. Solo travelers often lack a reliable system that can periodically check on their safety and quickly notify emergency contacts or authorities during unsafe situations. There is a need for a smart, user-controlled safety solution that provides continuous monitoring and instant emergency communication to enhance traveler security.
 
 ### The Solution
-[Safar addresses solo travel safety by providing a smart monitoring system where users can activate journey tracking for a selected time period. The platform performs periodic safety check-ins, prompting users to confirm their well-being. If the user feels unsafe or triggers a panic alert, the system immediately shares their live location and identification details with emergency contacts and nearby authorities, enabling faster response and assistance.]
+Safar addresses solo travel safety by providing a smart monitoring system where users can activate journey tracking for a selected time period. The platform performs periodic safety check-ins, prompting users to confirm their well-being. If the user feels unsafe or triggers a panic alert, the system immediately shares their live location and identification details with emergency contacts and nearby authorities, enabling faster response and assistance.
 
 ---
 
@@ -372,10 +372,31 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+https://drive.google.com/file/d/1H_vPSSZeunnDIf0gv23Dq34xrN47o4FH/view?usp=sharing
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+This video demonstrate the working of our website. Here we try to demonstrate all the features we have in the our website.
+features:-
+1. Timed Safety Check-In
+Users set custom time intervals (e.g., every 30 mins / 1 hour).
+System automatically sends a popup or notification asking:
+👉 “Are you safe?”
 
+2. Smart Alert Mechanism
+If the user confirms → timer resets.
+If the user does not respond within a deadline, emergency protocol activates.
+
+3.Live Location Tracking
+Continuous or periodic GPS tracking during travel.
+Location shared only during emergency situations.
+
+4. User Dashboard
+Trip start/stop control.
+Check-in history.
+Safety status monitoring
+
+5.Admin / Authority Panel
+Police or admin receives alerts.
+Displays user's real-time location on map.
 ### Additional Demos
 [Add any extra demo materials/links - Live site, APK download, online demo, etc.]
 
@@ -385,19 +406,16 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** [e.g., GitHub Copilot, chatgpt, gemini, blackbox ai]
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+ "Code review and optimization suggestions"
+
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
 - "Optimize this database query for better performance"
 
-**Percentage of AI-generated code:** [Approximately X%]
+**Percentage of AI-generated code:** [Approximately 75%]
 
 **Human Contributions:**
 - Architecture design and planning
