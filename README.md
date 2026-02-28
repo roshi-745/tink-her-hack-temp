@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
-</p>
+<img width="1919" height="859" alt="HOME PAGE" src="https://github.com/user-attachments/assets/715082b7-0c0a-4ee1-9a01-8ca42630f535" />
+
 
 # Safar 🎯
 
@@ -13,7 +12,7 @@
 - Member 2: Roshni D P - TKM college of engineering
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://tink-her-hack-temp-v97f.onrender.com
 
 ### Project Description
 Safar is a solo-travel safety platform that performs periodic check-ins with users during their journey to ensure their well-being.
