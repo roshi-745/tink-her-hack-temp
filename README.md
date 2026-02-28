@@ -34,9 +34,6 @@ Safar addresses solo travel safety by providing a smart monitoring system where 
 
 **For Software:**
 - Languages used: [e.g., JavaScript, html, CSS]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git]
 
 **For Hardware:**
 - Main components: [List main components]
@@ -97,11 +94,19 @@ Displays user's real-time location on map.]
 ![Screenshot1]()
 <img width="1919" height="859" alt="HOME PAGE" src="https://github.com/user-attachments/assets/9c4f65aa-bd0c-40ec-95d4-f480785d68b0" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]
+<img width="1919" height="859" alt="HOME PAGE" src="https://github.com/user-attachments/assets/cf63d9d5-020c-4043-96d9-a630a8a4e947" />
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3]
+<img width="1919" height="865" alt="JOURNEY REGISTRATION" src="https://github.com/user-attachments/assets/750bf06b-18c4-417e-8647-5a6c03260717" />
+
+SCREENSHOT 4
+<img width="1908" height="867" alt="CHECK-IN PAGE" src="https://github.com/user-attachments/assets/d1e5d9a9-1792-4c81-8de7-3d211a92ed3f" />
+SCREENSHOT 5
+<img width="1916" height="867" alt="PANIC BUTTON INTERFACE" src="https://github.com/user-attachments/assets/e68e8cc0-bf5a-4f9c-bf0c-261481914d44" />
+SCREENSHOT 6
+
+<img width="1919" height="866" alt="POLICE INTERFACE" src="https://github.com/user-attachments/assets/496ce03d-f599-4a25-b19a-9bc07acdadf1" />
 
 #### Diagrams
 
